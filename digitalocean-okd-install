@@ -486,9 +486,9 @@ EOF
     set -e
 }
 
-which() {
-    (alias; declare -f) | /usr/bin/which --read-alias --read-functions --show-tilde --show-dot $@
-}
+#which() {
+#    (alias; declare -f) | /usr/bin/which --read-alias --read-functions --show-tilde --show-dot $@
+#}
 
 check_requirement() {
     req=$1
